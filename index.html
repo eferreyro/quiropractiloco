@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+	<title>index</title>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Logo</a>
+		<div class="menu-toggle"></div>
+		<nav>
+			<ul>
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Team</a></li>
+				<li><a href="#">Portafolio</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+	</header>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('.menu-toggle').click(function(){
+  			$('.menu-toggle').toggleClass('active')
+  			$('nav').toggleClass('active')
+
+  			
+  		})
+  	})
+  </script>
+</body>
+</html>
