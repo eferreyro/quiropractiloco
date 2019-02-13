@@ -1,0 +1,26 @@
+h1{
+    color: purple;
+}
+.top_menu { 
+    background-color: #90c2e6;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_calendario{
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    display:flex; 
+    justify-content: flex-start;
+    width: 15%;
+    height: 210px;
+}
+.calendario {
+    display:flex;
+    justify-content: flex-end;
+    width: 70%;
+    height: 1000px;
+    margin-left: 20%;
+}
