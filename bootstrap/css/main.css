@@ -1,0 +1,19 @@
+
+.container {
+  background: #539EB1;
+}
+
+#footer {
+  background: #539EB1;
+}
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#header img{
+	width: 100px;
+	height:80px;
+}
+
+/*# sourceMappingURL=main.css.map */
