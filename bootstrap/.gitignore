@@ -1,6 +1,6 @@
 sass
-../bootstrap_copia/
-../bt4/
+modals
 _functions.scss
 _mixins.scss
-
+prepros-6.config
+modalimagens.html

@@ -1,0 +1,40 @@
+<div class="modal fade" id="segmodal" data-keyboard="false" data-backdrop="static">
+    <!-- datos de MODAL -->
+     <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+           <!--  boton de X (para cerrar el modal) -->
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <!-- Contenido del Modal -->
+           <h2 class="modal-title"> Agregar imagen</h2>
+           <div class="modal-body">
+            <!-- funcion de insertar en base de datos SEGPROG -->
+<form class="form-horizontal" method="post" id="addproduct" action="index.php?action=imagesprog&opt=add" enctype="multipart/form-data" role="form">
+<input type="hidden" name="kind" value="<?php echo $_GET["k"]; ?>">
+<input type="hidden" name="ref_id" value="<?php echo $_GET["id"]; ?>">
+  <div class="form-group">
+    <label for="inputEmail1" class="col-lg-2 control-label">Imagen*</label>
+    <div class="col-md-6">
+      <input type="file" name="file" required accept="image/jpg,image/jpeg" >
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail1" class="col-lg-2 control-label">Descripcion*</label>
+    <div class="col-md-6">
+      <textarea name="description" required class="form-control" id="lastname" rows="5" placeholder="Descripcion"></textarea>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-lg-offset-2 col-lg-10">
+      <button type="submit" class="btn btn-primary">Agregar Imagen</button>
+    </div>
+  </div>
+</form>
+
+</div>
+          </div>
+        </div>
+
+      </div> 
+    </div>

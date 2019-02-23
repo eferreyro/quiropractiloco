@@ -1,22 +1,24 @@
 #footer {
-  background-color: #27C6C1;
-  font-size: 1px;
+  background-color: #rgb 85, 190, 183;
   border: 1px dashed black;
-  max-height: 30px;
+  max-height: 50px;
   display: flex;
+  margin: 0 auto;
   text-align: center;
   align-items: center;
   margin: 20px 5px;
+  position: absolute;
+  bottom: 0;
 }
 
-#footer a {
+#footer .text-muted {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   font-family: Ubuntu, serif;
   color: #7C7C7D;
 }
-#footer a:hover {
+#footer .text-muted:hover {
   color: white;
 }
 
@@ -45,37 +47,6 @@ h1 {
   height: 800px;
   top: 50%;
   left: 50%;
-}
-
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-div {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
