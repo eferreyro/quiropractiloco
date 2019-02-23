@@ -1,10 +1,13 @@
- $(document).ready(function(){
-      $("#contenido").load("home.html");
+
+/*cuando hace la carga de la pagina index.html prepara las demás paginas para la vista*/
+
+$(document).ready(function(){
+      $("#contenido").load("choza.html");
   });
 
   $(document).ready(function(){
-  $("#home").click(function(){
-    $("#contenido").load("home.html");
+  $("#choza").click(function(){
+    $("#contenido").load("choza.html");
   });
 });
 $(document).ready(function(){

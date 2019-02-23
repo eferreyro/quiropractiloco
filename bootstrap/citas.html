@@ -3,13 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <title>CITAS</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
   <h1>Modulo de Citas</h1>
  <h2>acá va el calendario.</h2>
- <div>
-  <img src="asets/img/calendar.jpg" alt="Calendario 2018"  style="height: 500px">
-   
+ <div class="col-xs-12"> <span class="border"></span>
+ 	<div class="row center-block">
+ 		
+		  <img src="asets/img/calendar.jpg" class="imgCalendar" id="imgCalendar" alt="Calendario 2018">
+   	
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12">
+		
+		<table id="tabla" class="table table-bordered table-hover datatable">
+		<thead>
+			<th>Fecha</th>
+			<th>Paciente</th>
+      		<th>Tipo-Cita</th>
+      		<th>Costo</th>
+      	</thead>
+      	<tbody>
+      		<td>14/02/2019</td>
+      		<td>Juan Perez</td>
+      		<td>Seguimiento</td>
+      		<td>$300.00</td>
+      	</tbody>
+      	</table>
+      	</div>
+    </div>
+</div>
+
+
+
+
  </div>
 </body>
 </html>

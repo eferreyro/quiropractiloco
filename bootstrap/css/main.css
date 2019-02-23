@@ -1,19 +1,81 @@
-
-.container {
-  background: #539EB1;
-}
-
 #footer {
-  background: #539EB1;
+  background-color: #27C6C1;
+  font-size: 1px;
+  border: 1px dashed black;
+  max-height: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 20px 5px;
 }
+
 #footer a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Ubuntu, serif;
+  color: #7C7C7D;
+}
+#footer a:hover {
   color: white;
+}
+
+body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#header img {
+  width: 90px;
+  height: 70px;
+}
+
+h1 {
+  color: #7C7C7D;
   text-decoration: none;
 }
 
-#header img{
-	width: 100px;
-	height:80px;
+.choza img {
+  height: 100px;
+  width: 500px;
+}
+
+#imgCalendar {
+  height: 800px;
+  top: 50%;
+  left: 50%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
