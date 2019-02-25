@@ -1,0 +1,52 @@
+#footer {
+  background-color: #rgb 85, 190, 183;
+  border: 1px dashed black;
+  max-height: 50px;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  margin: 20px 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+#footer .text-muted {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Ubuntu, serif;
+  color: #7C7C7D;
+}
+#footer .text-muted:hover {
+  color: white;
+}
+
+body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#header img {
+  width: 90px;
+  height: 70px;
+}
+
+h1 {
+  color: #7C7C7D;
+  text-decoration: none;
+}
+
+.choza img {
+  height: 100px;
+  width: 500px;
+}
+
+#imgCalendar {
+  height: 800px;
+  top: 50%;
+  left: 50%;
+}
+
+/*# sourceMappingURL=main.css.map */
