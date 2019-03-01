@@ -1,5 +1,5 @@
 h1{
-    color: purple;
+    color: #4cbfbf;
 }
 .top_menu { 
     background-color: #90c2e6;
@@ -14,7 +14,7 @@ h1{
 .menu {
     display:flex; 
     justify-content: flex-start;
-    width: 15%;
+    width: 20%;
     height: 210px;
 }
 .calendario {
@@ -23,4 +23,9 @@ h1{
     width: 70%;
     height: 1000px;
     margin-left: 20%;
+}
+
+.calendario img {
+    max-width: 100%;
+    height: 500px;
 }
